@@ -1,0 +1,70 @@
+/* General body styling */
+body {
+  background-color: #f8f9fa;
+  /* A light grey background that will make the colors pop */
+  color: #333;
+  /* Dark grey text for general readability */
+  font-family: 'Arial', sans-serif;
+  /* A simple, readable font */
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #ffffff;
+  /* White background for the navbar */
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for a bit of depth */
+}
+
+.nav-link {
+  color: #f57c00;
+  /* Orange color for links */
+  text-decoration: none;
+  /* Remove underline from links */
+  margin: 0 10px;
+}
+
+.nav-link:hover {
+  color: #43a047;
+  /* Light green color when hovering over links */
+}
+
+/* Header component styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+  background-color: #ffffff;
+  /* White background for the header */
+}
+
+.header-text {
+  color: #333;
+  max-width: 50%;
+}
+
+.header-button {
+  background-color: #f57c00;
+  /* Orange background for the button */
+  color: #ffffff;
+  /* White text for the button */
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  /* Rounded corners for the button */
+  font-size: 16px;
+}
+
+.header-button:hover {
+  background-color: #43a047;
+  /* Light green background on hover */
+}
+
+/* Image styling */
+.header-image {
+  width: 50%;
+  height: auto;
+}
