@@ -275,7 +275,7 @@ function Headers() {
                         <Container>
                             <Row>
                                 <Col className="ml-auto text-right" md="7">
-                                    <h1 className="title">History of surfing</h1>
+                                    <h1 className="title">  of surfing</h1>
                                     <h4 className="description">
                                         The riding of waves has likely existed since humans began
                                         swimming in the ocean. In this sense, bodysurfing is the
